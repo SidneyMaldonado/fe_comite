@@ -13,25 +13,22 @@ import { ListarCidadeComponent } from './listar-cidade/listar-cidade.component';
 import { ListarEventoComponent } from './listar-evento/listar-evento.component';
 import { ListarSetorComponent } from './listar-setor/listar-setor.component';
 import { ListarModalidadeComponent } from './listar-modalidade/listar-modalidade.component';
+import { ListarConfederacaoComponent } from './listar-confederacao/listar-confederacao.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ListarPessoaComponent,
     ListarAtletaComponent,
-
-
     ListarProvinciaComponent,
-
     ListarComiteComponent,
-
     ListarSetorComponent,
     ListarEventoComponent,
-
     ListarSetorComponent,
     ListarEventoComponent,
     ListarCidadeComponent,
-    ListarModalidadeComponent
+    ListarModalidadeComponent,
+    ListarConfederacaoComponent
   ],
   imports: [
     BrowserModule,
