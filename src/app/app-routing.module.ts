@@ -5,13 +5,15 @@ import { ListarComiteComponent } from './listar-comite/listar-comite.component';
 import { ListarCidadeComponent } from './listar-cidade/listar-cidade.component';
 import { ListarSetorComponent } from './listar-setor/listar-setor.component';
 import { ListarEventoComponent } from './listar-evento/listar-evento.component';
+import { ListarModalidadeComponent } from './listar-modalidade/listar-modalidade.component';
 
 const routes: Routes = [
   {path: 'listaratleta', component: ListarAtletaComponent},
   {path: 'listarcomite', component: ListarComiteComponent},
   {path: 'listarcidade', component: ListarCidadeComponent},
   {path: 'listarsetor', component: ListarSetorComponent },
-  {path: 'listarevento', component: ListarEventoComponent}
+  {path: 'listarevento', component: ListarEventoComponent},
+  {path: 'listarmodalidade', component: ListarModalidadeComponent}
 ];
 
 @NgModule({
