@@ -6,14 +6,12 @@ import { AppComponent } from './app.component';
 import { ListarPessoaComponent } from './listar-pessoa/listar-pessoa.component';
 import { ListarAtletaComponent } from './listar-atleta/listar-atleta.component';
 
+
 import { ListarProvinciaComponent } from './listar-provincia/listar-provincia.component';
-
 import { ListarComiteComponent } from './listar-comite/listar-comite.component';
-
-
-
-import { ListarSetorComponent } from './listar-setor/listar-setor.component';
+import { ListarCidadeComponent } from './listar-cidade/listar-cidade.component';
 import { ListarEventoComponent } from './listar-evento/listar-evento.component';
+import { ListarSetorComponent } from './listar-setor/listar-setor.component';
 
 @NgModule({
   declarations: [
@@ -21,12 +19,18 @@ import { ListarEventoComponent } from './listar-evento/listar-evento.component';
     ListarPessoaComponent,
     ListarAtletaComponent,
 
+
     ListarProvinciaComponent,
 
     ListarComiteComponent,
 
     ListarSetorComponent,
-    ListarEventoComponent
+    ListarEventoComponent,
+
+    ListarSetorComponent,
+    ListarEventoComponent,
+    ListarCidadeComponent
+
   ],
   imports: [
     BrowserModule,
