@@ -5,13 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ListarPessoaComponent } from './listar-pessoa/listar-pessoa.component';
 import { ListarAtletaComponent } from './listar-atleta/listar-atleta.component';
+import { ListarSetorComponent } from './listar-setor/listar-setor.component';
 import { ListarEventoComponent } from './listar-evento/listar-evento.component';
-
 @NgModule({
   declarations: [
     AppComponent,
     ListarPessoaComponent,
     ListarAtletaComponent,
+    ListarSetorComponent,
     ListarEventoComponent
   ],
   imports: [
