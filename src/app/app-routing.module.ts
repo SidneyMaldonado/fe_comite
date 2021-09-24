@@ -5,7 +5,8 @@ import { ListarComiteComponent } from './listar-comite/listar-comite.component';
 
 const routes: Routes = [
   {path: 'listaratleta', component: ListarAtletaComponent},
-  {path: 'listarcomite', component: ListarComiteComponent}
+  {path: 'listarcomite', component: ListarComiteComponent},
+  {path: 'listarcidade', component: ListarCidadeComponent}
 ];
 
 @NgModule({
