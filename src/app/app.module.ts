@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { ListarPessoaComponent } from './listar-pessoa/listar-pessoa.component';
 import { ListarAtletaComponent } from './listar-atleta/listar-atleta.component';
 import { ListarComiteComponent } from './listar-comite/listar-comite.component';
+import { ListarCidadeComponent } from './listar-cidade/listar-cidade.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { ListarComiteComponent } from './listar-comite/listar-comite.component';
     ListarPessoaComponent,
     ListarAtletaComponent,
     ListarSetorComponent,
-    ListarEventoComponent
+    ListarEventoComponent,
+    ListarCidadeComponent
   ],
   imports: [
     BrowserModule,
