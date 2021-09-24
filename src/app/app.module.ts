@@ -12,6 +12,7 @@ import { ListarComiteComponent } from './listar-comite/listar-comite.component';
 import { ListarCidadeComponent } from './listar-cidade/listar-cidade.component';
 import { ListarEventoComponent } from './listar-evento/listar-evento.component';
 import { ListarSetorComponent } from './listar-setor/listar-setor.component';
+import { ListarModalidadeComponent } from './listar-modalidade/listar-modalidade.component';
 
 @NgModule({
   declarations: [
@@ -29,8 +30,8 @@ import { ListarSetorComponent } from './listar-setor/listar-setor.component';
 
     ListarSetorComponent,
     ListarEventoComponent,
-    ListarCidadeComponent
-
+    ListarCidadeComponent,
+    ListarModalidadeComponent
   ],
   imports: [
     BrowserModule,
