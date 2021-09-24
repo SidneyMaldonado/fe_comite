@@ -9,7 +9,7 @@ import { Provincia } from '../entities/provincia';
 })
 export class ListarProvinciaComponent implements OnInit {
 
-  provincias: ProvinciaService[] = [];
+  provincias: Provincia[] = [];
 
   constructor( private servicoProvincia: ProvinciaService ) { }
 
