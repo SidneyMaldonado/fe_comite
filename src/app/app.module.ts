@@ -7,6 +7,8 @@ import { ListarPessoaComponent } from './listar-pessoa/listar-pessoa.component';
 import { ListarAtletaComponent } from './listar-atleta/listar-atleta.component';
 import { ListarComiteComponent } from './listar-comite/listar-comite.component';
 import { ListarCidadeComponent } from './listar-cidade/listar-cidade.component';
+import { ListarEventoComponent } from './listar-evento/listar-evento.component';
+import { ListarSetorComponent } from './listar-setor/listar-setor.component';
 
 @NgModule({
   declarations: [
